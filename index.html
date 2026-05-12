@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Nguyễn Tiến Đạt</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f7f6;
+            padding: 20px;
+        }
+        .container {
+            max-width: 850px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+        }
+        header {
+            text-align: center;
+            border-bottom: 2px solid #2c3e50;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+        h1 {
+            color: #2c3e50;
+            font-size: 2.5em;
+            margin-bottom: 5px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        .subtitle {
+            font-size: 1.2em;
+            color: #7f8c8d;
+            margin-bottom: 10px;
+        }
+        .contact-info {
+            font-size: 0.95em;
+            color: #555;
+        }
+        .contact-info p {
+            margin: 3px 0;
+        }
+        h2 {
+            color: #2980b9;
+            font-size: 1.5em;
+            border-bottom: 1px solid #eaeaea;
+            padding-bottom: 8px;
+            margin-top: 30px;
+            margin-bottom: 15px;
+        }
+        .section-item {
+            margin-bottom: 25px;
+        }
+        .item-title {
+            font-weight: bold;
+            font-size: 1.15em;
+            color: #2c3e50;
+        }
+        .item-subtitle {
+            font-style: italic;
+            color: #666;
+            margin-bottom: 8px;
+            font-size: 0.95em;
+        }
+        ul.details {
+            padding-left: 20px;
+            color: #444;
+        }
+        ul.details li {
+            margin-bottom: 5px;
+        }
+        .skills-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .skill-tag {
+            background-color: #ecf0f1;
+            color: #2c3e50;
+            padding: 6px 12px;
+            border-radius: 20px;
+            font-size: 0.9em;
+            font-weight: 600;
+            border: 1px solid #bdc3c7;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>Nguyễn Tiến Đạt</h1>
+        <div class="subtitle">Sinh viên Công nghệ Thông tin</div>
+        <div class="contact-info">
+            <p><strong>Năm sinh:</strong> 2006</p>
+            <p><strong>Địa chỉ:</strong> Hà Nội (Quê quán: Từ Sơn, Bắc Ninh)</p>
+            <p><strong>Email:</strong> email.cua.ban@example.com | <strong>Điện thoại:</strong> 0123 456 789</p>
+            <p><strong>GitHub:</strong> github.com/username</p>
+        </div>
+    </header>
+
+    <section>
+        <h2>Học vấn</h2>
+        <div class="section-item">
+            <div class="item-title">Học viện Công nghệ Bưu chính Viễn thông (PTIT)</div>
+            <div class="item-subtitle">Chuyên ngành: Công nghệ Thông tin | Hiện tại: Sinh viên năm 2</div>
+            <ul class="details">
+                <li>Đang tích cực trau dồi kiến thức chuyên ngành về cấu trúc dữ liệu, thuật toán và phát triển phần mềm.</li>
+            </ul>
+        </div>
+        <div class="section-item">
+            <div class="item-title">Trường THPT Ngô Gia Tự, Bắc Ninh</div>
+            <div class="item-subtitle">Cựu học sinh</div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Kỹ năng Chuyên môn</h2>
+        <div class="skills-container">
+            <span class="skill-tag">C#</span>
+            <span class="skill-tag">Java (Android Development)</span>
+            <span class="skill-tag">PHP (Laravel Framework)</span>
+            <span class="skill-tag">SQL Server</span>
+            <span class="skill-tag">Quản trị Mạng cơ bản & Phần cứng</span>
+        </div>
+    </section>
+
+    <section>
+        <h2>Dự án Nổi bật</h2>
+        
+        <div class="section-item">
+            <div class="item-title">Nền tảng Tuyển dụng Trực tuyến "KDK Jobs"</div>
+            <div class="item-subtitle">Thành viên nhóm phát triển (Cuối 2025 - Đầu 2026)</div>
+            <ul class="details">
+                <li>Phối hợp phát triển frontend và backend cùng nhóm (với Phạm Quang Khánh và Nguyễn Văn Kiên).</li>
+                <li>Xây dựng logic ứng tuyển, bảng điều khiển (dashboard) cho nhà tuyển dụng.</li>
+                <li>Hoàn thiện dưới sự hướng dẫn chuyên môn của giảng viên Vũ Tuấn Minh.</li>
+            </ul>
+        </div>
+
+        <div class="section-item">
+            <div class="item-title">Hệ thống Quản lý Nông nghiệp "iFarm"</div>
+            <div class="item-subtitle">Nhà phát triển (2025)</div>
+            <ul class="details">
+                <li>Xây dựng kiến trúc thư mục và quản lý cơ sở dữ liệu (database migrations).</li>
+                <li>Phát triển các tính năng quản lý sản phẩm nông nghiệp sử dụng framework Laravel.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section>
+        <h2>Hoạt động & Sở thích</h2>
+        <ul class="details">
+            <li><strong>Thể thao:</strong> Đam mê bóng đá, fan hâm mộ của Cristiano Ronaldo và câu lạc bộ Real Madrid.</li>
+            <li><strong>Công nghệ & Giải trí:</strong> Yêu thích việc thiết lập, tinh chỉnh hiệu năng đồ hoạ game (như tối ưu shader trong Minecraft) và nghe nhạc điện tử (Remix, Vinahouse) để thư giãn.</li>
+        </ul>
+    </section>
+</div>
+
+</body>
+</html>
